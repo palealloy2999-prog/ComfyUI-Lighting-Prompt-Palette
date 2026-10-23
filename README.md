@@ -1,6 +1,10 @@
+[日本語](README_JA.md)
+
 # ComfyUI Lighting Prompt Palette
 
 Choose lighting words visually and output an English prompt string. Includes 55 entries in five categories, each with an original 256×256 WebP thumbnail and English / Japanese labels.
+
+<img width="586" height="657" alt="image" src="https://github.com/user-attachments/assets/02d1dd94-6870-420c-8041-c9ab1afc749c" />
 
 ## Installation
 
@@ -11,13 +15,13 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/palealloy2999-prog/ComfyUI-Lighting-Prompt-Palette
 ```
 
-Restart ComfyUI, then refresh the browser with Ctrl+F5. Requires a ComfyUI version supporting `comfy_api.latest` and DOM widgets. No additional runtime dependencies, API keys, or model downloads are needed.
+Restart ComfyUI, then refresh the browser with Ctrl+F5.
 
 ## Usage
 
-Add **PALEALLOY / Prompt → Lighting Prompt Palette**. Browse all categories in one list and click cards to select or deselect them. Use the fixed category buttons to scroll to a heading. Buttons and headings show selected / total counts. Hover over a card to read its Japanese description in a tooltip.
+Add **PALEALLOY / Prompt → Lighting Prompt Palette**. Browse all categories in one list and click cards to select or deselect them. Use the fixed category buttons to scroll to a heading. Buttons and headings show selected / total counts. Hover over a card to read its description in a tooltip.
 
-The default layout has five columns with thumbnails. At a node width of 320px or less, it switches to two columns without images; widening the node restores the thumbnails. Selection, deselection, and Clear All notify ComfyUI's change history.
+The default layout has five columns with thumbnails. At a node width of 320px or less, it switches to two columns without images; widening the node restores the thumbnails.
 
 Connect **prompt (STRING)** to a text input, such as CLIP Text Encode with its text widget converted to an input. Use **Clear All** to reset selections.
 
@@ -26,8 +30,6 @@ Selections are joined in click order, in lowercase, separated by commas. Identic
 Example: `god rays, bloom, ray tracing`
 
 Load [the example workflow](example_workflows/lighting_palette.json) to connect the palette to the built-in Preview as Text node.
-
-![Original thumbnail catalog](docs/thumbnails.jpg)
 
 ## English descriptions
 
@@ -49,12 +51,4 @@ Selection IDs, prompt tags, categories, and image references remain unchanged. C
 
 ## Notes
 
-Thumbnails illustrate terminology; tags influence the selected image model and do not configure a renderer. Some techniques, particularly path tracing, ray tracing, and screen space ambient occlusion, cannot be distinguished conclusively from a still image. Prompt output is rebuilt in Python from the JSON catalog; changing selections changes the execution input and cache key.
-
-Catalog: `web/lighting.json`. Static assets live under `web/thumbnails/` so ComfyUI serves them through its extension directory. Generation prompts are in `tools/thumbnail_prompts.json`. Use `tools/resize_thumbnails.py SOURCE_FOLDER` to convert originals named `<item-id>.png`; this development tool and `tools/validate_assets.py` use Pillow.
-
-Developer checks (run with ComfyUI's Python environment and the ComfyUI root on `PYTHONPATH`): `python -m unittest discover -s tests -v`, `node tests/frontend.mjs`, `python tools/validate_assets.py`. The frontend test uses a DOM fixture; it does not establish actual browser or Queue behavior.
-
-See [verification results and runtime limitations](tests/VERIFICATION.md).
-
-[日本語](README_JA.md)
+Thumbnails illustrate terminology; tags influence the selected image model and do not configure a renderer.
