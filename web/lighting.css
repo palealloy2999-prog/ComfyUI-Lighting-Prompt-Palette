@@ -1,0 +1,21 @@
+.lighting-palette { display:flex; flex-direction:column; height:100%; min-height:0; gap:8px; padding:8px; box-sizing:border-box; color:#eee; background:#171c24; font:12px sans-serif; }
+.lighting-palette button { color:inherit; cursor:pointer; font:inherit; display:grid; place-items:center; }
+.lp-nav { display:flex; flex-wrap:wrap; gap:4px; flex-shrink:0; padding-right:10px; }
+.lp-nav button { flex:1 1 110px; min-width:0; overflow-wrap:anywhere; padding:8px 4px; border:1px solid #485261; border-radius:6px; background:#252d39; }
+.lp-nav button[aria-current="location"] { background:#245d6a; border-color:#6cdeec; }
+.lp-grid { position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:8px; overflow-y:scroll; min-height:0; flex:1; align-content:start; overscroll-behavior:contain; scrollbar-width:thin; }
+.lp-heading { grid-column:1 / -1; margin:12px 0 0; padding:6px 0; border-bottom:1px solid #485261; font-size:13px; overflow-wrap:anywhere; }
+.lp-card { position:relative; min-width:0; padding:5px; text-align:left; border:2px solid #384352; border-radius:7px; background:#242b36; }
+.lp-card img { display:block; width:100%; height:auto; aspect-ratio:1; object-fit:cover; background:#10151d; border-radius:3px; opacity:0; }
+.lp-card img.loaded { opacity:1; }
+.lighting-palette.lp-compact .lp-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.lighting-palette.lp-compact .lp-card img { display:none; }
+.lighting-palette.lp-compact .lp-card { padding:8px 4px; text-align:center; }
+.lp-card strong,.lp-card small { display:block; overflow-wrap:anywhere; margin-top:4px; }
+.lp-card small { color:#bac5d2; }
+.lp-card.selected { border-color:#66e2bd; background:#24483f; }
+.lp-card.selected::after { content:"✓"; position:absolute; top:9px; right:9px; color:#082b23; background:#66e2bd; border-radius:50%; padding:2px 5px; font-weight:bold; }
+.lp-card:focus-visible,.lp-nav button:focus-visible { outline:2px solid #fff; outline-offset:-3px; }
+.lp-footer { display:flex; justify-content:space-between; align-items:center; flex-shrink:0; }
+.lp-footer button { background:#303b49; border:1px solid #68768a; border-radius:4px; padding:5px; }
+.lighting-palette textarea { flex-shrink:0; box-sizing:border-box; width:100%; height:66px; resize:none; background:#10151d; color:#dcf8ed; border:1px solid #485261; border-radius:4px; padding:6px; font:12px sans-serif; }

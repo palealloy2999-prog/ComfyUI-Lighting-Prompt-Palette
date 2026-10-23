@@ -1,0 +1,558 @@
+[
+  {
+    "id": "effects_lens_flare",
+    "category": "optical_effects",
+    "name": "Lens flare",
+    "name_ja": "レンズフレア",
+    "prompt": "lens flare",
+    "image": "effects_lens_flare.webp",
+    "order": 1,
+    "description": "強い光がレンズ内部で反射・散乱し、光源の周囲や画面内に光の筋や色付きの輪が現れる効果です。"
+  },
+  {
+    "id": "effects_anamorphic_flare",
+    "category": "optical_effects",
+    "name": "Anamorphic flare",
+    "name_ja": "アナモルフィックフレア",
+    "prompt": "anamorphic flare",
+    "image": "effects_anamorphic_flare.webp",
+    "order": 2,
+    "description": "アナモフィックレンズで強い光を撮影したときに、光源から横方向へ長い光の筋が伸びる効果です。"
+  },
+  {
+    "id": "effects_starburst",
+    "category": "optical_effects",
+    "name": "Starburst",
+    "name_ja": "スターバースト",
+    "prompt": "starburst",
+    "image": "effects_starburst.webp",
+    "order": 3,
+    "description": "小さく明るい光源の周囲に、絞りなどによる回折で星形の鋭い光条が現れる効果です。"
+  },
+  {
+    "id": "effects_light_leak",
+    "category": "optical_effects",
+    "name": "Light leak",
+    "name_ja": "ライトリーク",
+    "prompt": "light leak",
+    "image": "effects_light_leak.webp",
+    "order": 4,
+    "description": "カメラ内部へ漏れ込んだ光によって、画面の端などに赤やオレンジ色のかぶりやにじみが生じる効果です。"
+  },
+  {
+    "id": "effects_bokeh",
+    "category": "optical_effects",
+    "name": "Bokeh",
+    "name_ja": "玉ボケ",
+    "prompt": "bokeh",
+    "image": "effects_bokeh.webp",
+    "order": 5,
+    "description": "ピントの合っていない点光源などが、柔らかな円形や絞りの形にぼけて見える表現です。"
+  },
+  {
+    "id": "effects_bloom",
+    "category": "optical_effects",
+    "name": "Bloom",
+    "name_ja": "ブルーム",
+    "prompt": "bloom",
+    "image": "effects_bloom.webp",
+    "order": 6,
+    "aliases": [
+      "rendering_bloom"
+    ],
+    "description": "明るい部分の光が周囲へ柔らかくにじみ、発光感やまぶしさを強調する効果です。"
+  },
+  {
+    "id": "effects_light_streaks",
+    "category": "optical_effects",
+    "name": "Light streaks",
+    "name_ja": "ライトストリーク",
+    "prompt": "light streaks",
+    "image": "effects_light_streaks.webp",
+    "order": 7,
+    "description": "強い光や動く光源が、画面内に細長く伸びる筋として写る表現です。"
+  },
+  {
+    "id": "effects_light_trails",
+    "category": "optical_effects",
+    "name": "Light trails",
+    "name_ja": "ライトトレイル",
+    "prompt": "light trails",
+    "image": "effects_light_trails.webp",
+    "order": 8,
+    "description": "長時間露光などで移動する光源の経路を連続した光の線として記録する表現です。"
+  },
+  {
+    "id": "effects_god_rays",
+    "category": "light_effects",
+    "name": "God rays",
+    "name_ja": "ゴッドレイ",
+    "prompt": "god rays",
+    "image": "effects_god_rays.webp",
+    "order": 1,
+    "aliases": [
+      "rendering_god_rays"
+    ],
+    "description": "雲や木々の隙間を通る光が空気中の粒子で散乱し、明暗の筋として見える現象です。"
+  },
+  {
+    "id": "rendering_volumetric_lighting",
+    "category": "light_effects",
+    "name": "Volumetric Lighting",
+    "name_ja": "体積光",
+    "prompt": "volumetric lighting",
+    "image": "rendering_volumetric_lighting.webp",
+    "order": 2,
+    "description": "霧や煙などの空間内で起こる光の散乱を表現し、光の通り道を立体的に見せる照明表現です。"
+  },
+  {
+    "id": "rendering_atmospheric_scattering",
+    "category": "light_effects",
+    "name": "Atmospheric Scattering",
+    "name_ja": "大気散乱",
+    "prompt": "atmospheric scattering",
+    "image": "rendering_atmospheric_scattering.webp",
+    "order": 3,
+    "description": "大気中の分子や微粒子によって光の進行方向が変わり、空の色や遠景のかすみが生じる現象です。"
+  },
+  {
+    "id": "effects_prism_light",
+    "category": "light_effects",
+    "name": "Prism light",
+    "name_ja": "プリズム光",
+    "prompt": "prism light",
+    "image": "effects_prism_light.webp",
+    "order": 4,
+    "description": "プリズムなどを通った光が波長ごとに異なる角度へ屈折し、虹色に分かれて見える現象です。"
+  },
+  {
+    "id": "effects_caustics",
+    "category": "light_effects",
+    "name": "Caustics",
+    "name_ja": "コースティクス",
+    "prompt": "caustics",
+    "image": "effects_caustics.webp",
+    "order": 5,
+    "description": "水面やガラスによる光の屈折・反射が光を集め、周囲の面に明るい網目や曲線の模様を作る現象です。"
+  },
+  {
+    "id": "effects_dappled_light",
+    "category": "light_effects",
+    "name": "Dappled light",
+    "name_ja": "木漏れ日",
+    "prompt": "dappled light",
+    "image": "effects_dappled_light.webp",
+    "order": 6,
+    "description": "木の葉などの隙間を通った光が、地面や壁に不規則な明るい斑点と影を作る表現です。"
+  },
+  {
+    "id": "effects_glitter",
+    "category": "light_effects",
+    "name": "Glitter",
+    "name_ja": "グリッター",
+    "prompt": "glitter",
+    "image": "effects_glitter.webp",
+    "order": 7,
+    "description": "多数の細かな反射片がそれぞれ光を反射し、表面全体に細密なきらめきを生む表現です。"
+  },
+  {
+    "id": "effects_sparkle",
+    "category": "light_effects",
+    "name": "Sparkle",
+    "name_ja": "スパークル",
+    "prompt": "sparkle",
+    "image": "effects_sparkle.webp",
+    "order": 8,
+    "description": "宝石や水滴などの一部に強い反射の輝点が現れ、きらりとした輝きを強調する表現です。"
+  },
+  {
+    "id": "effects_sparks",
+    "category": "light_effects",
+    "name": "Sparks",
+    "name_ja": "火花",
+    "prompt": "sparks",
+    "image": "effects_sparks.webp",
+    "order": 9,
+    "description": "燃焼や金属の摩擦などで生じた高温の粒子が、明るい点や短い軌跡として飛び散る現象です。"
+  },
+  {
+    "id": "effects_light_particles",
+    "category": "light_effects",
+    "name": "Light particles",
+    "name_ja": "光の粒子",
+    "prompt": "light particles",
+    "image": "effects_light_particles.webp",
+    "order": 10,
+    "description": "発光する粒子や光を反射する微粒子を空間に散らし、光の点が浮遊するように見せる表現です。"
+  },
+  {
+    "id": "effects_neon_glow",
+    "category": "light_effects",
+    "name": "Neon glow",
+    "name_ja": "ネオングロー",
+    "prompt": "neon glow",
+    "image": "effects_neon_glow.webp",
+    "order": 11,
+    "description": "ネオン管や色鮮やかな発光体の光が周囲へにじみ、近くの物体や地面を彩る表現です。"
+  },
+  {
+    "id": "effects_halo",
+    "category": "light_effects",
+    "name": "Halo",
+    "name_ja": "ハロー",
+    "prompt": "halo",
+    "image": "effects_halo.webp",
+    "order": 12,
+    "description": "光源や被写体の周囲に輪状の明るい縁取りが現れ、光に包まれた印象を与える表現です。"
+  },
+  {
+    "id": "effects_laser_beam",
+    "category": "light_effects",
+    "name": "Laser beam",
+    "name_ja": "レーザービーム",
+    "prompt": "laser beam",
+    "image": "effects_laser_beam.webp",
+    "order": 13,
+    "description": "レーザーの指向性の高い光を細く鋭い線として見せ、霧や煙の中ではその光路も強調する表現です。"
+  },
+  {
+    "id": "effects_light_ribbon",
+    "category": "light_effects",
+    "name": "Light ribbon",
+    "name_ja": "ライトリボン",
+    "prompt": "light ribbon",
+    "image": "effects_light_ribbon.webp",
+    "order": 14,
+    "description": "帯状に広がる光を曲線や波のように配置し、流れや立体的な動きを感じさせる表現です。"
+  },
+  {
+    "id": "effects_radial_light_burst",
+    "category": "light_effects",
+    "name": "Radial light burst",
+    "name_ja": "ラジアルバースト",
+    "prompt": "radial light burst",
+    "image": "effects_radial_light_burst.webp",
+    "order": 15,
+    "description": "中心の強い光から多数の光線が放射状に広がり、閃光やエネルギーの広がりを強調する表現です。"
+  },
+  {
+    "id": "effects_light_sweep",
+    "category": "light_effects",
+    "name": "Light sweep",
+    "name_ja": "ライトスイープ",
+    "prompt": "light sweep",
+    "image": "effects_light_sweep.webp",
+    "order": 16,
+    "description": "細い光の帯やハイライトが画面や物体の表面を横切るように見せる演出です。"
+  },
+  {
+    "id": "rendering_ambient_light",
+    "category": "lighting",
+    "name": "Ambient Light",
+    "name_ja": "環境光",
+    "prompt": "ambient light",
+    "image": "rendering_ambient_light.webp",
+    "order": 1,
+    "description": "特定の方向からの光ではなく、周囲全体から届く光として物体の暗部を含めて照らす基本的な照明です。"
+  },
+  {
+    "id": "rendering_directional_light",
+    "category": "lighting",
+    "name": "Directional Light",
+    "name_ja": "平行光源",
+    "prompt": "directional light",
+    "image": "rendering_directional_light.webp",
+    "order": 2,
+    "description": "遠方の光源を近似した平行な光で、場面全体を一定方向から照らす照明です。"
+  },
+  {
+    "id": "rendering_point_light",
+    "category": "lighting",
+    "name": "Point Light",
+    "name_ja": "点光源",
+    "prompt": "point light",
+    "image": "rendering_point_light.webp",
+    "order": 3,
+    "description": "空間内の一点から各方向へ光を放ち、距離が離れるほど照度が低下する光源です。"
+  },
+  {
+    "id": "rendering_spot_light",
+    "category": "lighting",
+    "name": "Spot Light",
+    "name_ja": "スポットライト光源",
+    "prompt": "spot light",
+    "image": "rendering_spot_light.webp",
+    "order": 4,
+    "description": "空間内の一点から円錐状の範囲へ光を放ち、向きと照射角で照らす領域を制御する光源です。"
+  },
+  {
+    "id": "rendering_area_light",
+    "category": "lighting",
+    "name": "Area Light",
+    "name_ja": "面光源",
+    "prompt": "area light",
+    "image": "rendering_area_light.webp",
+    "order": 5,
+    "description": "面積を持つ光源から光を放ち、光源の見かけの大きさに応じた柔らかな影や反射を作る照明です。"
+  },
+  {
+    "id": "effects_spotlight",
+    "category": "lighting",
+    "name": "Spotlight",
+    "name_ja": "スポットライト",
+    "prompt": "spotlight",
+    "image": "effects_spotlight.webp",
+    "order": 6,
+    "description": "限られた範囲へ集中的に光を当て、被写体や舞台の一部を周囲から際立たせる照明表現です。"
+  },
+  {
+    "id": "effects_gobo_lighting",
+    "category": "lighting",
+    "name": "Gobo lighting",
+    "name_ja": "ゴボライト",
+    "prompt": "gobo lighting",
+    "image": "effects_gobo_lighting.webp",
+    "order": 7,
+    "description": "光源の前に模様を切り抜いた板などを置き、壁や床へ形のある光と影を投影する照明手法です。"
+  },
+  {
+    "id": "rendering_emissive_lighting",
+    "category": "lighting",
+    "name": "Emissive Lighting",
+    "name_ja": "自発光による照明",
+    "prompt": "emissive lighting",
+    "image": "rendering_emissive_lighting.webp",
+    "order": 8,
+    "description": "物体自身の発光によって周囲を照らす表現で、周囲への照明には発光を間接光へ反映する計算が必要です。"
+  },
+  {
+    "id": "rendering_rim_lighting",
+    "category": "lighting",
+    "name": "Rim Lighting",
+    "name_ja": "リムライト",
+    "prompt": "rim lighting",
+    "image": "rendering_rim_lighting.webp",
+    "order": 9,
+    "description": "被写体の後方や斜め後方から光を当て、髪や肩の輪郭を明るく縁取りして背景から際立たせる照明です。"
+  },
+  {
+    "id": "rendering_backlighting",
+    "category": "lighting",
+    "name": "Backlighting",
+    "name_ja": "逆光",
+    "prompt": "backlighting",
+    "image": "rendering_backlighting.webp",
+    "order": 10,
+    "description": "被写体の背後から光を当て、シルエットや髪・薄い素材の透け感を強調する照明です。"
+  },
+  {
+    "id": "rendering_soft_lighting",
+    "category": "lighting",
+    "name": "Soft Lighting",
+    "name_ja": "ソフトライティング",
+    "prompt": "soft lighting",
+    "image": "rendering_soft_lighting.webp",
+    "order": 11,
+    "description": "被写体から見て大きな光源などで照らし、影の境界を柔らかくして穏やかな陰影を作る照明です。"
+  },
+  {
+    "id": "rendering_hard_lighting",
+    "category": "lighting",
+    "name": "Hard Lighting",
+    "name_ja": "ハードライティング",
+    "prompt": "hard lighting",
+    "image": "rendering_hard_lighting.webp",
+    "order": 12,
+    "description": "被写体から見て小さな光源などで照らし、境界の鋭い影によって形状や質感を強調する照明です。"
+  },
+  {
+    "id": "rendering_low_key_lighting",
+    "category": "lighting",
+    "name": "Low-key Lighting",
+    "name_ja": "ローキー照明",
+    "prompt": "low-key lighting",
+    "image": "rendering_low_key_lighting.webp",
+    "order": 13,
+    "description": "補助光を抑えて画面の暗い部分を大きく残し、強い明暗差で重厚感や緊張感を作る照明表現です。"
+  },
+  {
+    "id": "rendering_high_key_lighting",
+    "category": "lighting",
+    "name": "High-key Lighting",
+    "name_ja": "ハイキー照明",
+    "prompt": "high-key lighting",
+    "image": "rendering_high_key_lighting.webp",
+    "order": 14,
+    "description": "影を補う光を十分に使って明暗差を抑え、全体を明るく軽やかな調子にまとめる照明表現です。"
+  },
+  {
+    "id": "rendering_rembrandt_lighting",
+    "category": "lighting",
+    "name": "Rembrandt Lighting",
+    "name_ja": "レンブラント照明",
+    "prompt": "rembrandt lighting",
+    "image": "rendering_rembrandt_lighting.webp",
+    "order": 15,
+    "description": "斜め上方からの光で影側の頬に小さな三角形の明部を残し、顔の立体感を強調する照明です。"
+  },
+  {
+    "id": "rendering_split_lighting",
+    "category": "lighting",
+    "name": "Split Lighting",
+    "name_ja": "スプリット照明",
+    "prompt": "split lighting",
+    "image": "rendering_split_lighting.webp",
+    "order": 16,
+    "description": "顔のほぼ真横から光を当て、顔を明るい側と暗い側に分けて劇的な印象を作る照明です。"
+  },
+  {
+    "id": "rendering_butterfly_lighting",
+    "category": "lighting",
+    "name": "Butterfly Lighting",
+    "name_ja": "バタフライ照明",
+    "prompt": "butterfly lighting",
+    "image": "rendering_butterfly_lighting.webp",
+    "order": 17,
+    "description": "顔の正面上方から光を当て、鼻の下に蝶のような形の影を作る人物向けの照明です。"
+  },
+  {
+    "id": "rendering_negative_fill",
+    "category": "lighting",
+    "name": "Negative Fill",
+    "name_ja": "ネガティブフィル",
+    "prompt": "negative fill",
+    "image": "rendering_negative_fill.webp",
+    "order": 18,
+    "description": "黒い板や布などで周囲から回り込む光を吸収し、影側を暗くして被写体の立体感や明暗差を強める手法です。"
+  },
+  {
+    "id": "effects_fresnel_reflection",
+    "category": "material",
+    "name": "Fresnel reflection",
+    "name_ja": "フレネル反射",
+    "prompt": "fresnel reflection",
+    "image": "effects_fresnel_reflection.webp",
+    "order": 1,
+    "description": "表面をかすめる角度で見るほど反射が強くなり、ガラスや水などの輪郭が明るく見える現象です。"
+  },
+  {
+    "id": "rendering_subsurface_scattering",
+    "category": "material",
+    "name": "Subsurface Scattering",
+    "name_ja": "表面下散乱",
+    "prompt": "subsurface scattering",
+    "image": "rendering_subsurface_scattering.webp",
+    "order": 2,
+    "description": "光が半透明な物体の内部へ入り、内部で散乱して別の位置から出ることで肌や蝋などの柔らかな透け感を生む現象です。"
+  },
+  {
+    "id": "rendering_specular",
+    "category": "material",
+    "name": "Specular",
+    "name_ja": "鏡面反射",
+    "prompt": "specular",
+    "image": "rendering_specular.webp",
+    "order": 3,
+    "description": "表面で光が鏡のような方向へ反射し、材質の粗さに応じたハイライトや映り込みを生む反射成分です。"
+  },
+  {
+    "id": "rendering_global_illumination",
+    "category": "rendering",
+    "name": "Global Illumination",
+    "name_ja": "大域照明",
+    "prompt": "global illumination",
+    "image": "rendering_global_illumination.webp",
+    "order": 1,
+    "description": "光源から直接届く光に加え、物体間で反射・透過して届く間接光も考慮する照明計算です。"
+  },
+  {
+    "id": "rendering_indirect_lighting",
+    "category": "rendering",
+    "name": "Indirect Lighting",
+    "name_ja": "間接照明",
+    "prompt": "indirect lighting",
+    "image": "rendering_indirect_lighting.webp",
+    "order": 2,
+    "description": "光源から直接当たる光ではなく、壁や床などで反射して届く光によって物体を照らすことです。"
+  },
+  {
+    "id": "rendering_radiosity",
+    "category": "rendering",
+    "name": "Radiosity",
+    "name_ja": "ラジオシティ",
+    "prompt": "radiosity",
+    "image": "rendering_radiosity.webp",
+    "order": 3,
+    "description": "面同士の拡散反射による光のやり取りを計算し、間接光や周囲の色の映り込みを表現する手法です。"
+  },
+  {
+    "id": "rendering_path_tracing",
+    "category": "rendering",
+    "name": "Path Tracing",
+    "name_ja": "パストレーシング",
+    "prompt": "path tracing",
+    "image": "rendering_path_tracing.webp",
+    "order": 4,
+    "description": "光の経路を確率的にサンプリングし、反射や屈折を繰り返す光の寄与を積算して画像を求める手法です。"
+  },
+  {
+    "id": "rendering_ray_tracing",
+    "category": "rendering",
+    "name": "Ray Tracing",
+    "name_ja": "レイトレーシング",
+    "prompt": "ray tracing",
+    "image": "rendering_ray_tracing.webp",
+    "order": 5,
+    "description": "視点などから光線を追跡し、物体との交差を使って影や反射・屈折などを計算する手法です。"
+  },
+  {
+    "id": "rendering_light_bounce",
+    "category": "rendering",
+    "name": "Light Bounce",
+    "name_ja": "光の反射・跳ね返り",
+    "prompt": "light bounce",
+    "image": "rendering_light_bounce.webp",
+    "order": 6,
+    "description": "光が物体の表面で反射して別の場所へ届き、暗部の明るさや色に影響することです。"
+  },
+  {
+    "id": "rendering_ambient_occlusion",
+    "category": "rendering",
+    "name": "Ambient Occlusion",
+    "name_ja": "環境遮蔽",
+    "prompt": "ambient occlusion",
+    "image": "rendering_ambient_occlusion.webp",
+    "order": 7,
+    "description": "周囲の形状によって環境光が届きにくい度合いを近似し、接触部やくぼみの陰影を強調する手法です。"
+  },
+  {
+    "id": "rendering_screen_space_ambient_occlusion",
+    "category": "rendering",
+    "name": "Screen Space Ambient Occlusion",
+    "name_ja": "画面空間環境遮蔽",
+    "prompt": "screen space ambient occlusion",
+    "image": "rendering_screen_space_ambient_occlusion.webp",
+    "order": 8,
+    "description": "画面内の深度や法線などの情報を使って周辺の遮蔽を推定し、接触部やくぼみに陰影を加える手法です。"
+  },
+  {
+    "id": "rendering_hdr_lighting",
+    "category": "rendering",
+    "name": "HDR Lighting",
+    "name_ja": "HDRライティング",
+    "prompt": "hdr lighting",
+    "image": "rendering_hdr_lighting.webp",
+    "order": 9,
+    "description": "非常に明るい光から暗い部分まで広い輝度範囲の情報を使い、照明の明暗差や反射を表現することです。"
+  },
+  {
+    "id": "rendering_tone_mapping",
+    "category": "rendering",
+    "name": "Tone Mapping",
+    "name_ja": "トーンマッピング",
+    "prompt": "tone mapping",
+    "image": "rendering_tone_mapping.webp",
+    "order": 10,
+    "description": "HDRなどの広い輝度範囲を表示機器で扱える範囲へ変換し、明暗の階調や見え方を調整する処理です。"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "effects_lens_flare",
+    "category": "optical_effects",
+    "name": "Lens flare",
+    "prompt": "lens flare",
+    "image": "effects_lens_flare.webp",
+    "order": 1,
+    "description": "Strong light reflects and scatters inside a lens, producing streaks or colored rings around the source or elsewhere in the frame."
+  },
+  {
+    "id": "effects_anamorphic_flare",
+    "category": "optical_effects",
+    "name": "Anamorphic flare",
+    "prompt": "anamorphic flare",
+    "image": "effects_anamorphic_flare.webp",
+    "order": 2,
+    "description": "A bright source photographed through an anamorphic lens produces long horizontal streaks of light."
+  },
+  {
+    "id": "effects_starburst",
+    "category": "optical_effects",
+    "name": "Starburst",
+    "prompt": "starburst",
+    "image": "effects_starburst.webp",
+    "order": 3,
+    "description": "Diffraction from an aperture or similar structure produces sharp star-shaped rays around a small bright light source."
+  },
+  {
+    "id": "effects_light_leak",
+    "category": "optical_effects",
+    "name": "Light leak",
+    "prompt": "light leak",
+    "image": "effects_light_leak.webp",
+    "order": 4,
+    "description": "Light leaking into a camera produces reddish or orange washes and glows, often near the edges of the frame."
+  },
+  {
+    "id": "effects_bokeh",
+    "category": "optical_effects",
+    "name": "Bokeh",
+    "prompt": "bokeh",
+    "image": "effects_bokeh.webp",
+    "order": 5,
+    "description": "Out-of-focus point lights appear as soft circles or shapes determined by the lens aperture."
+  },
+  {
+    "id": "effects_bloom",
+    "category": "optical_effects",
+    "name": "Bloom",
+    "prompt": "bloom",
+    "image": "effects_bloom.webp",
+    "order": 6,
+    "aliases": [
+      "rendering_bloom"
+    ],
+    "description": "Light from bright areas spreads softly into surrounding regions, emphasizing glow and brilliance."
+  },
+  {
+    "id": "effects_light_streaks",
+    "category": "optical_effects",
+    "name": "Light streaks",
+    "prompt": "light streaks",
+    "image": "effects_light_streaks.webp",
+    "order": 7,
+    "description": "Bright or moving light sources appear as elongated streaks across the image."
+  },
+  {
+    "id": "effects_light_trails",
+    "category": "optical_effects",
+    "name": "Light trails",
+    "prompt": "light trails",
+    "image": "effects_light_trails.webp",
+    "order": 8,
+    "description": "A long exposure records the path of a moving light source as a continuous luminous line."
+  },
+  {
+    "id": "effects_god_rays",
+    "category": "light_effects",
+    "name": "God rays",
+    "prompt": "god rays",
+    "image": "effects_god_rays.webp",
+    "order": 1,
+    "aliases": [
+      "rendering_god_rays"
+    ],
+    "description": "Light passing through gaps in clouds or foliage scatters off airborne particles and becomes visible as alternating bright and dark shafts."
+  },
+  {
+    "id": "rendering_volumetric_lighting",
+    "category": "light_effects",
+    "name": "Volumetric Lighting",
+    "prompt": "volumetric lighting",
+    "image": "rendering_volumetric_lighting.webp",
+    "order": 2,
+    "description": "Scattering in fog, smoke, or other participating media makes the path of light visible in three dimensions."
+  },
+  {
+    "id": "rendering_atmospheric_scattering",
+    "category": "light_effects",
+    "name": "Atmospheric Scattering",
+    "prompt": "atmospheric scattering",
+    "image": "rendering_atmospheric_scattering.webp",
+    "order": 3,
+    "description": "Atmospheric molecules and particles redirect light, producing effects such as sky color and distant haze."
+  },
+  {
+    "id": "effects_prism_light",
+    "category": "light_effects",
+    "name": "Prism light",
+    "prompt": "prism light",
+    "image": "effects_prism_light.webp",
+    "order": 4,
+    "description": "A prism or similar material refracts different wavelengths at different angles, separating light into rainbow colors."
+  },
+  {
+    "id": "effects_caustics",
+    "category": "light_effects",
+    "name": "Caustics",
+    "prompt": "caustics",
+    "image": "effects_caustics.webp",
+    "order": 5,
+    "description": "Refraction or reflection through water or glass concentrates light into bright networks or curved patterns on nearby surfaces."
+  },
+  {
+    "id": "effects_dappled_light",
+    "category": "light_effects",
+    "name": "Dappled light",
+    "prompt": "dappled light",
+    "image": "effects_dappled_light.webp",
+    "order": 6,
+    "description": "Light passing through gaps in foliage creates irregular patches of brightness and shadow on the ground or walls."
+  },
+  {
+    "id": "effects_glitter",
+    "category": "light_effects",
+    "name": "Glitter",
+    "prompt": "glitter",
+    "image": "effects_glitter.webp",
+    "order": 7,
+    "description": "Numerous tiny reflective flakes catch light individually, producing a dense field of fine shimmering highlights."
+  },
+  {
+    "id": "effects_sparkle",
+    "category": "light_effects",
+    "name": "Sparkle",
+    "prompt": "sparkle",
+    "image": "effects_sparkle.webp",
+    "order": 8,
+    "description": "Intense reflections on gemstones, droplets, or similar surfaces create isolated brilliant glints."
+  },
+  {
+    "id": "effects_sparks",
+    "category": "light_effects",
+    "name": "Sparks",
+    "prompt": "sparks",
+    "image": "effects_sparks.webp",
+    "order": 9,
+    "description": "Hot particles from combustion or metal friction scatter as bright points and short luminous trails."
+  },
+  {
+    "id": "effects_light_particles",
+    "category": "light_effects",
+    "name": "Light particles",
+    "prompt": "light particles",
+    "image": "effects_light_particles.webp",
+    "order": 10,
+    "description": "Glowing particles or illuminated dust create the appearance of floating points of light in space."
+  },
+  {
+    "id": "effects_neon_glow",
+    "category": "light_effects",
+    "name": "Neon glow",
+    "prompt": "neon glow",
+    "image": "effects_neon_glow.webp",
+    "order": 11,
+    "description": "Light from neon tubes or vivid luminous objects glows into nearby areas and colors surrounding surfaces."
+  },
+  {
+    "id": "effects_halo",
+    "category": "light_effects",
+    "name": "Halo",
+    "prompt": "halo",
+    "image": "effects_halo.webp",
+    "order": 12,
+    "description": "A luminous ring or bright outline surrounds a light source or subject, creating an enveloping glow."
+  },
+  {
+    "id": "effects_laser_beam",
+    "category": "light_effects",
+    "name": "Laser beam",
+    "prompt": "laser beam",
+    "image": "effects_laser_beam.webp",
+    "order": 13,
+    "description": "A highly directional laser appears as a narrow, sharp beam whose path can become visible in fog or smoke."
+  },
+  {
+    "id": "effects_light_ribbon",
+    "category": "light_effects",
+    "name": "Light ribbon",
+    "prompt": "light ribbon",
+    "image": "effects_light_ribbon.webp",
+    "order": 14,
+    "description": "Ribbon-shaped bands of light form curves or waves that suggest flow and three-dimensional movement."
+  },
+  {
+    "id": "effects_radial_light_burst",
+    "category": "light_effects",
+    "name": "Radial light burst",
+    "prompt": "radial light burst",
+    "image": "effects_radial_light_burst.webp",
+    "order": 15,
+    "description": "Numerous rays spread outward from an intense central source, emphasizing a flash or burst of energy."
+  },
+  {
+    "id": "effects_light_sweep",
+    "category": "light_effects",
+    "name": "Light sweep",
+    "prompt": "light sweep",
+    "image": "effects_light_sweep.webp",
+    "order": 16,
+    "description": "A narrow band of light or a highlight appears to sweep across the frame or over an object's surface."
+  },
+  {
+    "id": "rendering_ambient_light",
+    "category": "lighting",
+    "name": "Ambient Light",
+    "prompt": "ambient light",
+    "image": "rendering_ambient_light.webp",
+    "order": 1,
+    "description": "Light arriving from the surroundings rather than a single direction provides general illumination, including shadowed areas."
+  },
+  {
+    "id": "rendering_directional_light",
+    "category": "lighting",
+    "name": "Directional Light",
+    "prompt": "directional light",
+    "image": "rendering_directional_light.webp",
+    "order": 2,
+    "description": "Parallel light approximates a distant source and illuminates the scene from a consistent direction."
+  },
+  {
+    "id": "rendering_point_light",
+    "category": "lighting",
+    "name": "Point Light",
+    "prompt": "point light",
+    "image": "rendering_point_light.webp",
+    "order": 3,
+    "description": "A source emits light outward from a single point, with illumination decreasing as distance increases."
+  },
+  {
+    "id": "rendering_spot_light",
+    "category": "lighting",
+    "name": "Spot Light",
+    "prompt": "spot light",
+    "image": "rendering_spot_light.webp",
+    "order": 4,
+    "description": "A point-like source emits light within a cone, allowing its direction and beam angle to control the illuminated area."
+  },
+  {
+    "id": "rendering_area_light",
+    "category": "lighting",
+    "name": "Area Light",
+    "prompt": "area light",
+    "image": "rendering_area_light.webp",
+    "order": 5,
+    "description": "A source with physical area produces shadows and reflections whose softness depends on its apparent size."
+  },
+  {
+    "id": "effects_spotlight",
+    "category": "lighting",
+    "name": "Spotlight",
+    "prompt": "spotlight",
+    "image": "effects_spotlight.webp",
+    "order": 6,
+    "description": "Concentrated illumination highlights a limited region, separating a subject or part of a stage from its surroundings."
+  },
+  {
+    "id": "effects_gobo_lighting",
+    "category": "lighting",
+    "name": "Gobo lighting",
+    "prompt": "gobo lighting",
+    "image": "effects_gobo_lighting.webp",
+    "order": 7,
+    "description": "A patterned mask placed in front of a light projects shaped areas of light and shadow onto walls or floors."
+  },
+  {
+    "id": "rendering_emissive_lighting",
+    "category": "lighting",
+    "name": "Emissive Lighting",
+    "prompt": "emissive lighting",
+    "image": "rendering_emissive_lighting.webp",
+    "order": 8,
+    "description": "A luminous object lights its surroundings when the lighting calculation includes its emission as a source of indirect illumination."
+  },
+  {
+    "id": "rendering_rim_lighting",
+    "category": "lighting",
+    "name": "Rim Lighting",
+    "prompt": "rim lighting",
+    "image": "rendering_rim_lighting.webp",
+    "order": 9,
+    "description": "Light from behind or diagonally behind the subject outlines hair and shoulders, separating the subject from the background."
+  },
+  {
+    "id": "rendering_backlighting",
+    "category": "lighting",
+    "name": "Backlighting",
+    "prompt": "backlighting",
+    "image": "rendering_backlighting.webp",
+    "order": 10,
+    "description": "Light from behind the subject emphasizes silhouettes and translucency in hair or thin materials."
+  },
+  {
+    "id": "rendering_soft_lighting",
+    "category": "lighting",
+    "name": "Soft Lighting",
+    "prompt": "soft lighting",
+    "image": "rendering_soft_lighting.webp",
+    "order": 11,
+    "description": "A source with a large apparent size produces soft-edged shadows and gentle transitions in shading."
+  },
+  {
+    "id": "rendering_hard_lighting",
+    "category": "lighting",
+    "name": "Hard Lighting",
+    "prompt": "hard lighting",
+    "image": "rendering_hard_lighting.webp",
+    "order": 12,
+    "description": "A source with a small apparent size produces sharply defined shadows that emphasize shape and texture."
+  },
+  {
+    "id": "rendering_low_key_lighting",
+    "category": "lighting",
+    "name": "Low-key Lighting",
+    "prompt": "low-key lighting",
+    "image": "rendering_low_key_lighting.webp",
+    "order": 13,
+    "description": "Restrained fill light leaves substantial areas dark, using strong contrast to create a dramatic or weighty mood."
+  },
+  {
+    "id": "rendering_high_key_lighting",
+    "category": "lighting",
+    "name": "High-key Lighting",
+    "prompt": "high-key lighting",
+    "image": "rendering_high_key_lighting.webp",
+    "order": 14,
+    "description": "Generous fill light reduces contrast and creates an overall bright, light-toned image."
+  },
+  {
+    "id": "rendering_rembrandt_lighting",
+    "category": "lighting",
+    "name": "Rembrandt Lighting",
+    "prompt": "rembrandt lighting",
+    "image": "rendering_rembrandt_lighting.webp",
+    "order": 15,
+    "description": "Light from above and to one side leaves a small triangle of illumination on the shadow-side cheek, emphasizing facial form."
+  },
+  {
+    "id": "rendering_split_lighting",
+    "category": "lighting",
+    "name": "Split Lighting",
+    "prompt": "split lighting",
+    "image": "rendering_split_lighting.webp",
+    "order": 16,
+    "description": "Light from almost directly beside the face divides it into an illuminated half and a shadowed half for a dramatic effect."
+  },
+  {
+    "id": "rendering_butterfly_lighting",
+    "category": "lighting",
+    "name": "Butterfly Lighting",
+    "prompt": "butterfly lighting",
+    "image": "rendering_butterfly_lighting.webp",
+    "order": 17,
+    "description": "Light from directly in front of and above the face creates a butterfly-shaped shadow beneath the nose."
+  },
+  {
+    "id": "rendering_negative_fill",
+    "category": "lighting",
+    "name": "Negative Fill",
+    "prompt": "negative fill",
+    "image": "rendering_negative_fill.webp",
+    "order": 18,
+    "description": "Black boards or fabric absorb surrounding bounce light, deepening shadows and increasing contrast or dimensionality."
+  },
+  {
+    "id": "effects_fresnel_reflection",
+    "category": "material",
+    "name": "Fresnel reflection",
+    "prompt": "fresnel reflection",
+    "image": "effects_fresnel_reflection.webp",
+    "order": 1,
+    "description": "Reflection becomes stronger at grazing viewing angles, making the edges of materials such as glass or water appear brighter."
+  },
+  {
+    "id": "rendering_subsurface_scattering",
+    "category": "material",
+    "name": "Subsurface Scattering",
+    "prompt": "subsurface scattering",
+    "image": "rendering_subsurface_scattering.webp",
+    "order": 2,
+    "description": "Light enters a translucent material, scatters internally, and exits elsewhere, creating the soft translucency of skin or wax."
+  },
+  {
+    "id": "rendering_specular",
+    "category": "material",
+    "name": "Specular",
+    "prompt": "specular",
+    "image": "rendering_specular.webp",
+    "order": 3,
+    "description": "The directional reflection component produces highlights and reflected images whose appearance depends on surface roughness."
+  },
+  {
+    "id": "rendering_global_illumination",
+    "category": "rendering",
+    "name": "Global Illumination",
+    "prompt": "global illumination",
+    "image": "rendering_global_illumination.webp",
+    "order": 1,
+    "description": "Lighting calculations account for indirect light reflected or transmitted between objects as well as light arriving directly from sources."
+  },
+  {
+    "id": "rendering_indirect_lighting",
+    "category": "rendering",
+    "name": "Indirect Lighting",
+    "prompt": "indirect lighting",
+    "image": "rendering_indirect_lighting.webp",
+    "order": 2,
+    "description": "Surfaces are illuminated by light reflected from walls, floors, or other objects rather than directly from a light source."
+  },
+  {
+    "id": "rendering_radiosity",
+    "category": "rendering",
+    "name": "Radiosity",
+    "prompt": "radiosity",
+    "image": "rendering_radiosity.webp",
+    "order": 3,
+    "description": "The exchange of diffusely reflected light between surfaces is calculated to reproduce indirect illumination and color bleeding."
+  },
+  {
+    "id": "rendering_path_tracing",
+    "category": "rendering",
+    "name": "Path Tracing",
+    "prompt": "path tracing",
+    "image": "rendering_path_tracing.webp",
+    "order": 4,
+    "description": "Light paths are sampled probabilistically, accumulating contributions from repeated reflection and refraction to form an image."
+  },
+  {
+    "id": "rendering_ray_tracing",
+    "category": "rendering",
+    "name": "Ray Tracing",
+    "prompt": "ray tracing",
+    "image": "rendering_ray_tracing.webp",
+    "order": 5,
+    "description": "Rays are traced from viewpoints or other origins, using surface intersections to calculate effects such as shadows, reflection, and refraction."
+  },
+  {
+    "id": "rendering_light_bounce",
+    "category": "rendering",
+    "name": "Light Bounce",
+    "prompt": "light bounce",
+    "image": "rendering_light_bounce.webp",
+    "order": 6,
+    "description": "Light reflects off one surface and reaches another area, affecting the brightness and color of shadowed regions."
+  },
+  {
+    "id": "rendering_ambient_occlusion",
+    "category": "rendering",
+    "name": "Ambient Occlusion",
+    "prompt": "ambient occlusion",
+    "image": "rendering_ambient_occlusion.webp",
+    "order": 7,
+    "description": "The degree to which nearby geometry blocks environmental illumination is approximated to emphasize contact shadows and crevices."
+  },
+  {
+    "id": "rendering_screen_space_ambient_occlusion",
+    "category": "rendering",
+    "name": "Screen Space Ambient Occlusion",
+    "prompt": "screen space ambient occlusion",
+    "image": "rendering_screen_space_ambient_occlusion.webp",
+    "order": 8,
+    "description": "Screen-space depth, normals, or related data are used to estimate occlusion and add shading around contacts and crevices."
+  },
+  {
+    "id": "rendering_hdr_lighting",
+    "category": "rendering",
+    "name": "HDR Lighting",
+    "prompt": "hdr lighting",
+    "image": "rendering_hdr_lighting.webp",
+    "order": 9,
+    "description": "Information spanning a wide range of luminance is used to represent lighting contrast and reflections from very bright to dark regions."
+  },
+  {
+    "id": "rendering_tone_mapping",
+    "category": "rendering",
+    "name": "Tone Mapping",
+    "prompt": "tone mapping",
+    "image": "rendering_tone_mapping.webp",
+    "order": 10,
+    "description": "A wide luminance range, such as HDR data, is mapped to a displayable range to adjust tonal detail and appearance."
+  }
+]
