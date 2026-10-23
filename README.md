@@ -33,7 +33,7 @@ Load [the example workflow](example_workflows/lighting_palette.json) to connect 
 
 ## English descriptions
 
-Japanese descriptions are the default, regardless of ComfyUI's UI language. To use English item labels and descriptions, back up `web/lighting.json`, then copy [launguage/en/lighting.json](launguage/en/lighting.json) over `web/lighting.json` in this node's folder. Restart ComfyUI and refresh the browser with Ctrl+F5.
+Japanese descriptions are the default, regardless of ComfyUI's UI language. To use English item labels and descriptions, back up `web/lighting.json`, then copy [language/en/lighting.json](language/en/lighting.json) over `web/lighting.json` in this node's folder. Restart ComfyUI and refresh the browser with Ctrl+F5.
 
 Selection IDs, prompt tags, categories, and image references remain unchanged. Category buttons and other controls remain bilingual. Restore your backup to return to Japanese descriptions. Updates may replace the customized file; repeat the copy after updating if needed.
 

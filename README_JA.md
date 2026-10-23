@@ -35,7 +35,7 @@ git clone https://github.com/palealloy2999-prog/ComfyUI-Lighting-Prompt-Palette
 
 ## 英語の説明文に切り替える
 
-説明文はComfyUI本体の言語設定に関係なく、標準では日本語です。英語の項目名・説明文を使う場合は、このノードのフォルダー内にある `web/lighting.json` をバックアップし、[launguage/en/lighting.json](launguage/en/lighting.json) を `web/lighting.json` へ上書きコピーしてください。ComfyUIを再起動し、ブラウザーをCtrl＋F5で更新すると反映されます。
+説明文はComfyUI本体の言語設定に関係なく、標準では日本語です。英語の項目名・説明文を使う場合は、このノードのフォルダー内にある `web/lighting.json` をバックアップし、[language/en/lighting.json](language/en/lighting.json) を `web/lighting.json` へ上書きコピーしてください。ComfyUIを再起動し、ブラウザーをCtrl＋F5で更新すると反映されます。
 
 選択ID・出力タグ・カテゴリ・画像参照は変わりません。カテゴリボタンなどの操作部分は日英併記のままです。日本語に戻す場合はバックアップを復元してください。更新時に差し替えたファイルが置き換わる場合があるため、必要に応じて更新後に再コピーしてください。
 
